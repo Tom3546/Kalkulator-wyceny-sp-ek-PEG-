@@ -28,7 +28,7 @@ Ocena spółki według PEG:
    * W terminalu, w folderze projektu, uruchom:
 ```bash
 pip install -r requirements.txt
-
+```
 3. Uruchom plik `peg_calc.bat`.  
 4. Wpisz ticker spółki (możesz go znaleźć na stronie Yahoo Finance, np. **XTB S.A. (XTB.WA)**).  
    - Dla polskich spółek wpisywanie końcówki `.WA` nie jest konieczne — program automatycznie sprawdzi, czy taki ticker istnieje.  
