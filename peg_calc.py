@@ -65,12 +65,12 @@ def peg_calculator():
         else:
             n-=1
 
-    if n == 1: 
+    if n == 1:
         os.system('cls' if os.name == 'nt' else 'clear')
         print(f"{Fore.RED}Brak danych o EPS z poprzednich lat{Style.RESET_ALL}")
         return
 
-    eps_cagr = round(((eps_curr / eps_prev)**(1/n)-1)*100,2) 
+    eps_cagr = round(((eps_curr / eps_prev)**(1/n)-1)*100,2) #podaj cagr w n-latach
 
     if eps_cagr <= 0:
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -89,8 +89,7 @@ def peg_calculator():
         
     ocena = ocena_peg(peg)
 
-    print(" Name:", name, "\n", "Price:", price, "\n", "P/E:", pe, "\n", "EPS growth past", n, "Y:", eps_cagr, "%", 
+    print(" Nazwa:", name, "\n", "Cena:", price, "\n", "P/E:", pe, "\n", "EPS cagr - ", n, "Y:", eps_cagr, "%", 
           "\n", "PEG:", peg, "\n", "Ocena: ", ocena)
-
 
 peg_calculator()
