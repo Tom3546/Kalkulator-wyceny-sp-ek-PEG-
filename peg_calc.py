@@ -8,14 +8,18 @@ logging.getLogger("yfinance").setLevel(logging.CRITICAL) #usuń do debugowania
 
 def peg_calculator():
     ticker = input("Podaj ticker spółki: ").upper()
+    os.system('cls' if os.name == 'nt' else 'clear') 
 
-    os.system('cls' if os.name == 'nt' else 'clear')
-
+    if ticker == "":
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print(f"{Fore.RED}Wpisz poprawny ticker{Style.RESET_ALL}")
+        return
+    
     stock = yf.Ticker(ticker)
 
     def ticker_is_valid(ticker, stock):
         try:
-            valid = bool("Basic EPS" in stock.financials.index and "regularMarketPrice" in stock.info)
+            valid = bool("Basic EPS" in stock.financials.index and "regularMarketPrice" and "longName" and "trailingPE" in stock.info)
             if valid == False:
                 ticker = ticker + ".WA"
                 stock = yf.Ticker(ticker)
