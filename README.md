@@ -1,5 +1,4 @@
-# Kalkulator wyceny spółek (PEG)
-
+# Kalkulator wyceny spolek PEG
 ## Opis
 
 Terminalowy kalkulator fundamentalny, który umożliwia szybkie sprawdzenie wyceny spółki na podstawie wskaźnika **PEG**.  
