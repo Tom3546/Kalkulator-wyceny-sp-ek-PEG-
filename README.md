@@ -11,6 +11,7 @@ Wyświetla podstawowe informacje finansowe:
   * **EPS growth** – roczny wzrost EPS
   * **PEG** – wskaźnik P/E w stosunku do wzrostu EPS
   * **Ocena** - Ocenia atrakcyjność spółki na podstawie wskaźnika PEG
+
 Ocena spółki na podstawie PEG:
   * **Tania** – PEG ≤ 1
   * **Można inwestować** – PEG ≤ 2,5
