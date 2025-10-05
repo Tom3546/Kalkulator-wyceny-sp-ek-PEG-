@@ -5,9 +5,9 @@
 Terminalowy kalkulator fundamentalny, który umożliwia szybkie sprawdzenie wyceny spółki na podstawie wskaźnika **PEG**.  
 Program pobiera podstawowe dane finansowe spółki i ocenia jej atrakcyjność inwestycyjną.
 
-##Działanie
+## Działanie
 
-*Program pobiera informacje o spółce za pomocą biblioteki yfinance.
+* Program pobiera informacje o spółce za pomocą biblioteki yfinance.
 Wyświetla podstawowe informacje finansowe:
   * **Name** - nazwa spółki
   * **Price** – bieżąca cena akcji
