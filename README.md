@@ -23,8 +23,11 @@ Ocena spółki według PEG:
 
 ## Instrukcja obsługi
 
-1. Uruchom plik `peg_calc.bat`.  
-2. Wpisz ticker spółki (możesz go znaleźć na stronie Yahoo Finance, np. **XTB S.A. (XTB.WA)**).  
+1. Zainstaluj wymagane biblioteki Pythona, korzystając z pliku `requirements.txt`:
+```bash pip install -r requirements.txt```
+
+2. Uruchom plik `peg_calc.bat`.  
+3. Wpisz ticker spółki (możesz go znaleźć na stronie Yahoo Finance, np. **XTB S.A. (XTB.WA)**).  
    - Dla polskich spółek wpisywanie końcówki `.WA` nie jest konieczne — program automatycznie sprawdzi, czy taki ticker istnieje.  
    - **Uwaga:** Automatyczne dodanie `.WA` nie zawsze działa poprawnie. Jeśli Yahoo Finance znajdzie ticker bez końcówki `.WA`, możesz otrzymać dane dotyczące innej spółki niż ta, którą chciałeś sprawdzić.  
    Dlatego zawsze sprawdzaj, czy nazwa spółki wyświetlana przez program zgadza się z tą, którą chciałeś analizować.
