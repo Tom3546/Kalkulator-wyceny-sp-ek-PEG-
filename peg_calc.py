@@ -93,7 +93,8 @@ def peg_calculator():
         
     ocena = ocena_peg(peg)
 
-    print(" Nazwa:", name, "\n", "Cena:", price, "\n", "P/E:", pe, "\n", "EPS cagr - ", n, "Y:", eps_cagr, "%", 
+    print(" Nazwa:", name, "\n", "Cena:", price, "\n", "P/E:", pe, "\n", "EPS cagr", n, "Y:", eps_cagr, "%", 
           "\n", "PEG:", peg, "\n", "Ocena: ", ocena)
 
 peg_calculator()
+
