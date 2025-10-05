@@ -1,7 +1,9 @@
 # Kalkulator-wyceny-spolek-PEG-
+
 ## Opis
 Terminalowy kalkulator fundamentalny, który umożliwia szybkie sprawdzenie wyceny spółki na podstawie wskaźnika **PEG**.  
 Program pobiera podstawowe dane finansowe spółki i ocenia jej atrakcyjność inwestycyjną.
+
 ##Działanie
 *Program pobiera informacje o spółce za pomocą biblioteki yfinance.
 Wyświetla podstawowe informacje finansowe:
