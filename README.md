@@ -26,7 +26,8 @@ Ocena spółki według PEG:
 1. Zainstaluj wymagane biblioteki Pythona, korzystając z pliku `requirements.txt`:
    * Pobierz pliki
    * W terminalu, w folderze projektu, uruchom:
-  ```bash pip install -r requirements.txt```
+  ```bash
+pip install -r requirements.txt```
 
 3. Uruchom plik `peg_calc.bat`.  
 4. Wpisz ticker spółki (możesz go znaleźć na stronie Yahoo Finance, np. **XTB S.A. (XTB.WA)**).  
